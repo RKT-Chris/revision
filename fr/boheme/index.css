@@ -1,0 +1,29 @@
+:root {
+  --color1: #222831;
+  --color2: #393e46;
+  --color3: #00adb5;
+  --color4: #eeeeee;
+}
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+  background: var(--color1);
+  color: var(--color4);
+}
+header.fr {
+  height: 15vh;
+  position: absolute;
+  background: var(--color3);
+  width: 100vw;
+  text-align: center;
+  font-size: 10vh;
+}
+main.fr {
+  position: relative;
+  padding: 5vmin;
+  top: 15vh;
+  display: flex;
+  width: 100vw;
+  box-sizing: border-box;
+}
